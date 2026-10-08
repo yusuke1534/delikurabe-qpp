@@ -1,0 +1,8 @@
+{
+  "name": "delikurabe-authorized-price-server",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "engines": {"node": ">=20"},
+  "scripts": {"start": "node api/server.mjs", "test": "node tests/test-public-menu.mjs && node tests/test-ui.mjs"}
+}
